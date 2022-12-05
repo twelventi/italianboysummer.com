@@ -1,28 +1,36 @@
 .red {
-    background-color: rgb(255, 65, 31);
+    background-color: #cf0a1b;
 }
 
 .green {
-    background-color: rgb(48, 197, 48);
+    background-color: #009246;
 }
 
 .gold {
-    background-color: gold;
+    background-color: #ffd700;
 }
 
 .header-flag {
     min-height: 50px;
-    color: white;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5px;
     text-align: center;
+}
+
+.gradient {
+    background: linear-gradient(45deg, rgb(16, 99, 0) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, rgb(255, 0, 7) 75%);
 }
 
 .header-flag-border {
     min-height: 10px;
 }
 
-.embed { 
+.logo {
+    max-height: 50px;
+}
+
+.embed {
     margin: 15px;
     margin-top: 30px;
 }
@@ -36,4 +44,34 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.insta-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    flex-grow: 1;
 }
